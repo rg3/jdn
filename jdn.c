@@ -1,3 +1,7 @@
+/*
+ * Author: Ricardo Garcia Gonzalez
+ * License: Public domain code.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
