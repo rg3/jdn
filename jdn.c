@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 	case 3:
 		scan_date_or_usage(argv[0], argv[1], &a);
 		scan_date_or_usage(argv[0], argv[2], &b);
-		printf("%d days elapsed\n", julian_day_number(&b) - julian_day_number(&a));
+		printf("%d days elapsed\n", abs(julian_day_number(&b) - julian_day_number(&a)));
 		break;
 	default:
 		usage_and_die(argv[0]);
